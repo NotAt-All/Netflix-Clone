@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  /* background-color: #00000066; */
+}
+body {
+  /* background-color: #00000066; */
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.first-page {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(
+      to top,
+      rgb(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.4) 60%,
+      rgb(0, 0, 0, 0.8) 100%
+    ),
+    url(bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.nav-bar {
+  width: 100%;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  width: 160px;
+  height: 50px;
+  background-image: url(netflix-logo-0.png);
+  background-size: cover;
+  position: relative;
+  left: -350px;
+}
+.signin {
+  width: 80px;
+  height: 36px;
+  background-color: #ef0914;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  position: relative;
+  left: 340px;
+}
+.middle {
+  width: 900px;
+  height: 235px;
+  /* background-color: #ef0914; */
+  text-align: center;
+  position: absolute;
+  top: 290px;
+  right: 500px;
+}
+.tag-1 {
+  font-size: 48px;
+  color: white;
+  /* font-weight: 7000; */
+}
+.tag-2 {
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: white;
+}
+.tag-3 {
+  font-size: 20px;
+  margin: 10px 5px;
+  color: white;
+}
+input {
+  width: 345px;
+  height: 24px;
+  /* padding: 24px 16px 8px 16px; */
+  padding: 16px 0px 16px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: black;
+  font-size: 1.4em;
+}
+.getstart {
+  width: 202px;
+  height: 58px;
+  /* padding: 12px 24px 12px 24px; */
+  /* margin: 0 0 0 3px; */
+  background-color: #ef0914;
+  font-size: 24px;
+  color: white;
+  position: relative;
+  top: 3px;
+}
+.getstart i {
+  font-size: 25px;
+  text-align: center;
+  margin: 0 0 0 2px;
+}
+.second-page {
+  width: 100%;
+  height: 600px;
+  background-color: black;
+  padding: 72px 0 72px 0;
+  margin-top: 8px;
+}
+.tag-4 {
+  color: white;
+  text-align: center;
+  font-size: 48px;
+}
+.tag-5 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  margin: 40px 0 0 0;
+}
+.second-page i {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  left: 900px;
+  margin: 60px 0 0 0;
+}
+.second-page .tv {
+  width: 500px;
+  position: absolute;
+  left: 680px;
+}
+.n {
+  width: 100px;
+  height: 150px;
+  position: relative;
+  left: 880px;
+  top: 100px;
+}
+.third-page {
+  height: 600px;
+  padding: 72px 0 72px 0;
+  background-color: black;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.stranger {
+  width: 760px;
+  height: 600px;
+  margin: 0 0 0 167px;
+  /* margin-top: 8px; */
+}
+.stranger-div {
+  display: inline-block;
+  /* background-color: aqua; */
+  margin: 0 167px 0 0;
+}
+.tag-6 {
+  width: 766px;
+  height: 244px;
+  font-size: 48px;
+  color: white;
+  text-align: start;
+  transform: translatey(80px);
+}
+.tag-7 {
+  color: white;
+  font-size: 24px;
+}
+.forth-page {
+  width: 100%;
+  height: 410px;
+  margin-top: 8px;
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+}
+.tag-8 {
+  margin: 120px 0 0 0;
+  color: white;
+  font-size: 48px;
+}
+.tag-9 {
+  margin-top: 10px;
+  color: white;
+  font-size: 24px;
+}
+.fifth-page {
+  height: 600px;
+  background-color: black;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kids {
+  width: 780px;
+  height: 590px;
+}
+.tag-10 {
+  color: white;
+  font-size: 48px;
+}
+.tag-11 {
+  margin: 10px;
+  color: white;
+  font-size: 24px;
+  width: 543px;
+}
+.footer {
+  margin-top: 8px;
+  height: 600px;
+  padding: 60px 204px 60px 204px;
+  /* padding: 60px 0; */
+  background-color: black;
+  width: 1458px;
+  height: 432px;
+}
+.pra {
+  width: 1458px;
+  /* background-color: rgb(28, 7, 221); */
+}
+.pra a {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.cont ul {
+  width: 1458px;
+  height: 144px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+.cont ul li {
+  width: 385px;
+  height: 22px;
+  margin: 10px;
+}
+.cont ul li a {
+  font-size: 16px;
+  color: #ffffff;
+}
+.select {
+  width: 134px;
+  height: 34px;
+  align-self: self-end;
+  /* display: flex; */
+  /* justify-content: center; */
+}
